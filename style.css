@@ -1,0 +1,27 @@
+body {
+    background-position: center;
+    background-image: url("startup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+h1 {
+    padding: 200px 0px;
+    text-align: center;
+    color: cornsilk;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-danger:hover {
+    transform: scale(1.1);
+}
+
+.btn-danger {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
